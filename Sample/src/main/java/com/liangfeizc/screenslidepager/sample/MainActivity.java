@@ -3,7 +3,7 @@ package com.liangfeizc.screenslidepager.sample;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -11,7 +11,7 @@ import android.view.View;
 import com.liangfeizc.slidepager.SlidePagerActivity;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     private static final String[] IMAGES = new String[] {
             "http://img1.cache.netease.com/catchpic/B/B2/B2F274C1CCD5A89133261E6252A0C8E9.jpg",
